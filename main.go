@@ -14,7 +14,7 @@ type Model struct {
 
 func NewModel() *Model {
 	return &Model{
-		views: []tea.Model{NewActive()},
+		views: []tea.Model{NewActive(5)},
 	}
 }
 
