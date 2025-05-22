@@ -3,11 +3,11 @@ package main
 import (
 	"time"
 
-	"github.com/charmbracelet/bubbles/v2/progress"
-	"github.com/charmbracelet/bubbles/v2/timer"
-	tea "github.com/charmbracelet/bubbletea/v2"
+	"github.com/charmbracelet/bubbles/progress"
+	"github.com/charmbracelet/bubbles/timer"
+	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/huh"
-	"github.com/charmbracelet/lipgloss/v2"
+	"github.com/charmbracelet/lipgloss"
 )
 
 type active struct {
